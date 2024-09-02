@@ -1,0 +1,17 @@
+.menu{
+  color: white;
+  list-style: none;
+  height: 100vh;
+}
+
+@media(max-width: 768px){
+  .menu{
+    display: none;
+  }
+}
+
+.card{
+  margin: 5px;
+  box-shadow: 1px 1px 10px #000;
+  max-height: 100vh;
+}
